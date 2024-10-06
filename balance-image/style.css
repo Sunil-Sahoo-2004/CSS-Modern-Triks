@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(219, 214, 214);
+}
+
+h1{
+    text-align: center;
+    padding: 100px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img{
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
